@@ -1,0 +1,22 @@
+{
+    "name": "luismy/bienes-raices_poo",
+    "description": "Bienes raices con poo",
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "View\\":"./views",
+            "Controller\\":"./controllers",
+            "MVC\\":"./",
+            "Clases\\":"./clases"
+        }
+    },
+    "authors": [
+        {
+            "name": "Miguel Angel Suarez"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

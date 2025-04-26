@@ -1,0 +1,29 @@
+table.propiedades{
+    width: 100%;
+    margin-top: 2rem;
+    border-spacing: 0;
+   
+    
+    thead{
+        background-color: $amarillo;
+
+    }
+    th{
+        
+        padding: 1rem;
+        color: $blanco;
+        
+    }
+
+    td{
+        padding: 1rem;
+        background-color: $gris;
+        border: 1px solid #9c9c9c55;
+        
+
+        img{
+            width: 10rem;
+            
+        }
+    }
+}
